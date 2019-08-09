@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir Pendaftaran</title>
+</head>
+
+<style>
+	h1{
+		font-size: 40px;
+		font-weight: bold;
+		font-variant: small-caps;
+		color: orange;
+		background: blue;
+		font-family: arial;
+	}
+
+	body{
+		background-color: aqua;
+	}
+
+	p{
+		font-size: 20px;
+		font-family: arial;
+		background-color: blue;
+		color: orange;
+	}
+
+	label{
+		font-size: 20px;
+	}
+
+	input{
+		font-size: 20px;
+	}
+
+    select{
+    	font-size: 20px;
+    }
+</style>
+<body>
+
+	<h1><marquee>Formulir Pendaftaran</marquee></h1>
+     
+     <form action="formulir.html">
+	<table border="1" cellpadding="3" cellspacing="0">
+		<tr>
+			<td><label for="Username">Username :</label></td>
+			<td><input type="text" id="Username"></td>
+		</tr>
+		<tr>
+			<td><label for="Password">Password : </label></td>
+			<td><input type="Password" id="Password"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><label for="Jenis Kelamin">Jenis Kelamin :</label>
+			<input type="radio" id="Pria"   name="JenisKelamin">Pria
+			<input type="radio" id="Wanita" name="JenisKelamin">Wanita</td>
+		</tr>
+		<tr>
+			<td colspan="2"><label for="Hobby">Hobby :</label>
+			<input type="checkbox" id="Futsal">Futsal
+			<input type="checkbox" id="Ngoding">Ngoding
+		    <input type="checkbox" id="Berenang">Berenang</td>
+		</tr>
+		<tr>
+			<td colspan="2"><label for="AsalKota">Asal Kota :</label>
+				<select>
+					<option>Jakarta</option>
+					<option>Bandung</option>
+					<option>Bogor</option>
+				</select></td>
+		</tr>
+		<tr>
+			<td colspan="2"><label for="Komentar" >Komentar :</label>
+				<textarea></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><button name="submit">Kirim</button></td>
+		</tr>
+	</table>
+       
+
+       <br><br><br><br><br><br><br>
+	   <p align="center">CopyRight Website 2019</p>
+
+</body>
+</html>
